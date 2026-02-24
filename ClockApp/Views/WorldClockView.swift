@@ -9,10 +9,30 @@ import SwiftUI
 
 struct WorldClockView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            Text("World Clock")
+                .navigationTitle("World Clock")
+                .toolbar {
+                    
+                    ToolbarItem(placement: .topBarLeading) {
+                        
+                        Button("Edit") {
+                            // Does nothing right now
+                        }
+                        
+                    }
+                    
+                    ToolbarItem(placement: .primaryAction) {
+                        Button{
+                        }label: {
+                            Image(systemName: "plus")
+                        }
+                        }
+                    }
+                }
+        }
     }
-}
 
 #Preview {
-    WorldClockView()
+    LandingView()
 }

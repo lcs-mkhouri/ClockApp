@@ -13,6 +13,7 @@
 		D0B7A95E2F4E33180081F19B /* WorldClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B7A95D2F4E33180081F19B /* WorldClockView.swift */; };
 		D0B7A9602F4E33500081F19B /* AlarmsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B7A95F2F4E33500081F19B /* AlarmsView.swift */; };
 		D0B7A9622F4E33630081F19B /* StopwatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B7A9612F4E33630081F19B /* StopwatchView.swift */; };
+		D0B7A9642F4E404D0081F19B /* CityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B7A9632F4E404D0081F19B /* CityView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		D0B7A95D2F4E33180081F19B /* WorldClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockView.swift; sourceTree = "<group>"; };
 		D0B7A95F2F4E33500081F19B /* AlarmsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmsView.swift; sourceTree = "<group>"; };
 		D0B7A9612F4E33630081F19B /* StopwatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchView.swift; sourceTree = "<group>"; };
+		D0B7A9632F4E404D0081F19B /* CityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 			children = (
 				D0B7A9572F4E31720081F19B /* LandingView.swift */,
 				D0B7A95D2F4E33180081F19B /* WorldClockView.swift */,
+				D0B7A9632F4E404D0081F19B /* CityView.swift */,
 				D0B7A95F2F4E33500081F19B /* AlarmsView.swift */,
 				D0B7A9612F4E33630081F19B /* StopwatchView.swift */,
 			);
@@ -146,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0B7A9592F4E31720081F19B /* ClockAppApp.swift in Sources */,
+				D0B7A9642F4E404D0081F19B /* CityView.swift in Sources */,
 				D0B7A95E2F4E33180081F19B /* WorldClockView.swift in Sources */,
 				D0B7A9602F4E33500081F19B /* AlarmsView.swift in Sources */,
 				D0B7A9622F4E33630081F19B /* StopwatchView.swift in Sources */,
